@@ -52,7 +52,7 @@ export default function SimpleForm() {
           required
           minLength={10}
         />
-        <SubmitButton label="Submit" />
+        <SubmitButton label="Отправить" />
       </form>
     </div>
   );
