@@ -6,6 +6,7 @@ import Posts from './pages/Posts';
 import CreatePost from './pages/CreatePost';
 import ProfileSetup from './pages/ProfileSetup';
 import Profile from './pages/Profile';
+import SupportForm from './pages/SupportForm'
 
 export default function App() {
   const [createdPosts, setCreatedPosts] = useState<any[]>([]);
@@ -19,6 +20,7 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/support" element={<SupportForm />} />
         <Route path="/profile-setup" element={<ProfileSetup />} />
         <Route path="/profile" element={<Profile />} />
         <Route 

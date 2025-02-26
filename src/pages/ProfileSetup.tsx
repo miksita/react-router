@@ -17,7 +17,7 @@ export default function ProfileSetup() {
     <div className='p-10 px-40'>
       <form onSubmit={handleSubmit} className="relative p-10 bg-white mx-8 shadow rounded-3xl space-y-10">
         <div>
-        <h1 className= "text-center text-4xl font-bold">Регистрация</h1>
+        <h1>Регистрация</h1>
           <label>
             Имя:
             <input

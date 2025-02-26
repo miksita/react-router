@@ -23,7 +23,7 @@ export default function Posts({ createdPosts }: Props) {
         setUsers(usersData);
         setLoading(false);
       } catch (error) {
-        console.error("Error loading data:", error);
+        console.error("Ошибочка:", error);
         setLoading(false);
       }
     };
@@ -37,7 +37,7 @@ export default function Posts({ createdPosts }: Props) {
   };
 
   if (loading) {
-    return <div className="text-center p-8">Загрузка постов...</div>;
+    return <h1 >Загрузка постов...</h1>;
   }
 
   return (
